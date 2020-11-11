@@ -1,0 +1,24 @@
+{
+  "name": "wd-service",
+  "version": "1.0.0",
+  "description": "wd-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/water-li-drop/wd-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/water-li-drop/wd-service/issues"
+  },
+  "homepage": "https://github.com/water-li-drop/wd-service#readme",
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
+  }
+}
