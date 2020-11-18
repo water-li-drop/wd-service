@@ -17,6 +17,6 @@ app.all('', function (req, res, next) {
 // 托管静态文件
 app.use('/',express.static('dist'))
 // 使用路由组件
-app.use('/wzry',routers.wzryRouter)
+app.use('/',routers)
 // 启动服务器
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
